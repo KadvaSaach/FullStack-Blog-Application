@@ -1,0 +1,122 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Fullstack Blog",
+    "dateExported": "2023-06-15T09:22:36.925Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "0ba40ba3-3dcf-41b9-a696-8bc033ec876b",
+            "colId": "37629e35-ac4e-424d-ab19-245034e86db1",
+            "containerId": "",
+            "name": "GET all blogs",
+            "url": "http://localhost:3000/api/blog",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2023-06-15T09:21:14.022Z",
+            "modified": "2023-06-15T09:21:14.022Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "f29de899-f374-49b7-af46-914f04e52437",
+            "colId": "37629e35-ac4e-424d-ab19-245034e86db1",
+            "containerId": "",
+            "name": "GET single post",
+            "url": "http://localhost:3000/api/blog/648ad0682092291d15d240df",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2023-06-15T09:21:28.886Z",
+            "modified": "2023-06-15T09:21:28.886Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "6e7f1a32-4cf2-44fd-9370-dcc7ff3be3f5",
+            "colId": "37629e35-ac4e-424d-ab19-245034e86db1",
+            "containerId": "",
+            "name": "GET single post",
+            "url": "http://localhost:3000/api/blog/648ad0682092291d15d240df",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2023-06-15T09:21:33.679Z",
+            "modified": "2023-06-15T09:21:33.679Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "3f17a2c9-3fc1-454a-99e9-8a0284107ad2",
+            "colId": "37629e35-ac4e-424d-ab19-245034e86db1",
+            "containerId": "",
+            "name": "POST create a new post",
+            "url": "http://localhost:3000/api/blog",
+            "method": "POST",
+            "sortNum": 40000,
+            "created": "2023-06-15T09:21:48.718Z",
+            "modified": "2023-06-15T09:21:48.718Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"title\":\"Why do we use it?\",\n  \"description\":\"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "07cdfa76-0387-4eb1-81e1-472d13c3d1f0",
+            "colId": "37629e35-ac4e-424d-ab19-245034e86db1",
+            "containerId": "",
+            "name": "PUT edit a post by id",
+            "url": "http://localhost:3000/api/blog/648ad0682092291d15d240df",
+            "method": "PUT",
+            "sortNum": 50000,
+            "created": "2023-06-15T09:22:00.749Z",
+            "modified": "2023-06-15T09:22:00.749Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"title\":\"Why do we use it?\",\n  \"description\": \"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "feb6a226-cbb0-41b4-9604-2c2a21142193",
+            "colId": "37629e35-ac4e-424d-ab19-245034e86db1",
+            "containerId": "",
+            "name": "PUT edit a post by id",
+            "url": "http://localhost:3000/api/blog/648ad0682092291d15d240df",
+            "method": "PUT",
+            "sortNum": 60000,
+            "created": "2023-06-15T09:22:02.516Z",
+            "modified": "2023-06-15T09:22:02.516Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"title\":\"Why do we use it?\",\n  \"description\": \"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "b718909b-030c-443e-b8f6-4192de2f4d02",
+            "colId": "37629e35-ac4e-424d-ab19-245034e86db1",
+            "containerId": "",
+            "name": "DELETE delete post by id",
+            "url": "http://localhost:3000/api/blog/648ad0682092291d15d240df",
+            "method": "DELETE",
+            "sortNum": 70000,
+            "created": "2023-06-15T09:22:09.890Z",
+            "modified": "2023-06-15T09:22:09.890Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}
